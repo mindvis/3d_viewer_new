@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Sample Product Page with 3D Viewer</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page with 3D View</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="column">
+            <h1>Sprout Chair S4216-DW</h1>
+            <button id="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="column">
+            <img src="https://zaneti.com.au/cdn/shop/products/sprout-s4216-dw-zaneti-872680.jpg?v=1638484334" alt="Product Image">
+        </div>
+        <div class="column">
+            <p>The Sprout range in textured finish provides a great seating option for your patio or bar area. The lightweight frame has clean, minimalistic design that expresses an at once both reassuring and innovative concept. The Sprout’s uncluttered lines offer a sleek, understated and robust expression. Finished in powder coated aluminium, it has greater durability and resilience and a versatile quality suitable for both indoor and outdoor applications and feels right at home in gardens and balconies.</p>
+            <button id="open-popup">View in 3D</button>
+
+            <div id="popup" class="popup">
+                <div class="popup-content">
+                    <div class="loading-screen">
+                        <div class="loading-circle"></div>
+                        <div class="loading-circle"></div>
+                        <div class="loading-circle"></div>
+                    </div>
+                    <iframe src="" id="api-frame" allow="autoplay; fullscreen; xr-spatial-tracking" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    <!-- Show and Hide buttons as an overlay -->
+                    <div id="controls" class="button-container">
+                        <button id="show">Show Seat</button>
+                        <button id="hide">Hide Seat</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://static.sketchfab.com/api/sketchfab-viewer-1.12.1.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
