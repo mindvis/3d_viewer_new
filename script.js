@@ -44,7 +44,7 @@
                     },
                     camera: 1,
                     blending: 1,
-                    autospin: 0,
+                    autospin: 0.25,
                     ui_settings: 0,
                     autostart: 1,
                     ui_fullscreen: 0,
